@@ -1,2 +1,5 @@
 <?php
-echo "Works";
+
+if ($_REQUEST) {
+   var_dump($_REQUEST);
+}
